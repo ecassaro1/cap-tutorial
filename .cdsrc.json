@@ -1,0 +1,33 @@
+{
+    "[development]": {
+        "auth": {
+            "passport": {
+                "strategy": "mock",
+                "users": {
+                    "eric.cassaro@numenit.com": {
+                        "password": "Enrico123@01",
+                        "ID": "eric.cassaro@numenit.com",
+                        "roles": [
+                            "RiskViewer",
+                            "RiskManager"
+                        ]
+                    },
+                    "risk.viewer@tester.sap.com": {
+                        "password": "initial",
+                        "ID": "risk.viewer@tester.sap.com",
+                        "roles": [
+                            "RiskViewer"
+                        ]
+                    },
+                    "risk.manager@tester.sap.com": {
+                        "password": "initial",
+                        "ID": "risk.manager@tester.sap.com",
+                        "roles": [
+                            "RiskManager"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
